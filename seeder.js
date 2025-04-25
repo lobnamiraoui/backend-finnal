@@ -37,21 +37,14 @@ const users = [
 ];
 
 const products = [
-	{
-	  name: "Robe ",
-	  description: "Robe légère et élégante parfaite pour les journées ensoleillées.",
-	  price: 79.99,
-	  countInStock: 20,
-	  imageUrl: "assets/robe.jpg",
-	  category: "Vêtements",
-	},
+	
 	
 	{
 	  name: "Montre dorée classique",
 	  description: "Montre pour femme avec un bracelet doré et un design intemporel.",
 	  price: 199.99,
 	  countInStock: 10,
-	  imageUrl: "assets/montre1.jpg",
+	  imageUrl: "/assets/montre1.jpg",
 	  category: "Montres",
 	},
 	{
@@ -59,7 +52,7 @@ const products = [
 	  description: "robe tendance pour un look professionnel ou décontracté.",
 	  price: 99.99,
 	  countInStock: 12,
-	  imageUrl: "assets/robe.jpg",
+	  imageUrl: "/assets/robe.jpg",
 	  category: "Vêtements",
 	},
 	{
@@ -67,7 +60,7 @@ const products = [
 	  description: "Petit sac stylé avec chaîne dorée pour une touche chic.",
 	  price: 69.99,
 	  countInStock: 25,
-	  imageUrl: "assets/sac3.jpg",
+	  imageUrl: "/assets/sac3.jpg",
 	  category: "Sacs",
 	},
 	{
@@ -75,7 +68,7 @@ const products = [
 	  description: "Montre tendance avec un boîtier en acier inoxydable rouge.",
 	  price: 149.99,
 	  countInStock: 8,
-	  imageUrl: "assets/montre3.jpg",
+	  imageUrl: "/assets/montre3.jpg",
 	  category: "Montres",
 	},
 	{
@@ -83,7 +76,7 @@ const products = [
 	  description: "robe fluide plissée pour un look féminin et moderne.",
 	  price: 59.99,
 	  countInStock: 18,
-	  imageUrl: "assets/robe2.webp",
+	  imageUrl: "/assets/robe2.webp",
 	  category: "Vêtements",
 	},
 	{
@@ -91,7 +84,7 @@ const products = [
 	  description: "Grand sac cabas en toile, pratique et stylé pour le quotidien.",
 	  price: 49.99,
 	  countInStock: 30,
-	  imageUrl: "assets/sac1.jpg",
+	  imageUrl: "/assets/sec1.jpg",
 	  category: "Sacs",
 	},
 
@@ -100,7 +93,7 @@ const products = [
 		description: "Grand sac cabas en toile, pratique et stylé pour le quotidien.",
 		price: 50.99,
 		countInStock: 30,
-		imageUrl: "assets/sec2.jpg",
+		imageUrl: "/assets/sec2.jpg",
 		category: "Sacs",
 	  },
 	  {
@@ -108,7 +101,7 @@ const products = [
 		description: "Grand sac cabas en toile, pratique et stylé pour le quotidien.",
 		price: 60.99,
 		countInStock: 30,
-		imageUrl: "assets/sacs.jpg",
+		imageUrl: "/assets/sacs.jpg",
 		category: "Sacs",
 	  },
 	  {
@@ -116,7 +109,7 @@ const products = [
 		description: "Montre pour femme avec un bracelet doré et un design intemporel.",
 		price: 199.99,
 		countInStock: 10,
-		imageUrl: "assets/montre4.jpg",
+		imageUrl: "/assets/montre4.jpg",
 		category: "Montres",
 	  },
   ];
@@ -181,7 +174,7 @@ const importData = async () => {
 				postalCode: "12345",
 				country: "USA",
 			},
-			paymentMethod: "E-dinar",
+			paymentMethod: "e-dinnar",
 			totalPrice: products[0].price + products[3].price * 2,
 			isPaid: false,
 			isDelivered: false,
